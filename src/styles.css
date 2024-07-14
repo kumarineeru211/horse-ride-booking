@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.landing-page {
+  text-align: center;
+  margin: 0;
+}
+
+.banner {
+  width: 100vw;
+  height: 600px; 
+  overflow: hidden;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  position: absolute;
+  top: -10%; /* Shift the image up by 40% */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  object-fit: cover;
+}
+
+
+.banner-content {
+  position: absolute;
+  top: 30%;
+  right: 60%;
+  left: 5%;
+  text-align: left;
+}
+
+
+.book-now-btn {
+  margin-top: 20px;
+  padding: 10px 40px;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+  background-color:rgb(183, 90, 90);;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.book-now-btn:hover {
+  background-color: brown
+}
+
+.banner-content h1 {
+  font-size: 4rem;
+  margin: 0;
+  color: black;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  margin: 10px 0 0 0;
+  color: #f9f9f9;
+}
+
+.horses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+
+.horsescol{
+  background-color: burlywood;
+
+}
+  .horse-card {
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px; /* Adjust width as needed */
+  }
+  
+  .horse-card-image {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    
+  }
+  
+  .horse-card img.horse-image {
+    width: 100%;
+    height: 450px; 
+    object-fit: cover;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+  }
+  
+  .horse-card-name {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    
+    color: white;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  
+
+
+
+.horse-card button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+ 
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.horse-card button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .banner-content {
+    position: absolute;
+    top: 10%;
+    right: 60%;
+    left: 5%;
+    text-align: left;
+  }
+
+  .banner-content h1 {
+    font-size: 1.2rem;
+   
+  }
+
+  .banner-content p {
+    font-size: 1rem;
+   
+  }
+
+  .banner {
+    width: 100vw;
+    height: 303px;
+    overflow: hidden;
+    position: relative;
+  }
+}

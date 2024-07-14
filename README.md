@@ -3,6 +3,23 @@
 
 The Horse Ride Booking System allows users to book horse rides from a stable with 4 horses. Users can choose a time slot, fill in their details, and receive a confirmation notification with a calendar invite.
 
+## Landing Page:
+A visually appealing design showcasing the horse ride booking system.
+Display the available horses with their pictures and names.
+A “Book Now” button leading to the booking form.
+## Booking Form:
+A form where users can:
+Select a horse from the list of 4 horses.
+Choose a date and time slot (1-hour intervals on weekdays and Saturdays between 3 PM - 12 AM).
+Enter their name, email, and phone number.
+A “Submit” button to complete the booking.
+## Booking Confirmation:
+A professional yet cute pop-up notification confirming the booking.
+The notification should include:
+The name of the booked horse.
+A thank you message.
+
+
 ## Installation
 
 1. Clone the repository:
@@ -25,13 +42,6 @@ The Horse Ride Booking System allows users to book horse rides from a stable wit
     npm run dev
     ```
 
-## Usage
-
-1. Open your browser and navigate to `http://localhost:3000`.
-2. Browse through the available horses on the landing page.
-3. Click the “Book Now” button to open the booking form.
-4. Fill in the required details and submit the form.
-5. Receive a booking confirmation notification with a calendar invite.
 
 ### Design Guidelines
 
